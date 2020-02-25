@@ -10,9 +10,11 @@
     <title>Document</title>
 </head>
 <body>
- <p>
-
-
-<p>Součet: <?= $a> + <?= $b?> = <?= $a + $b ?> </p>
+<p>a =<?= $a ?> </p>
+<p>b =<?= $b ?> </p>
+<p>Součet: <?= $a ?> + <?= $b ?> = <?= $a + $b ?> </p>
+<p>Rozdíl: <?= $a ?> - <?= $b ?> = <?= $a - $b ?> </p>
+<p>Součin: <?= $a ?> x <?= $b ?> = <?= $a * $b ?> </p>
+<p>Podíl: <?= $a ?> + <?= $b ?> = <?= $a / $b ?> </p>
 </body>
 </html>
