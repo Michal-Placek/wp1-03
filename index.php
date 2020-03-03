@@ -3,6 +3,13 @@
 <?php
         $a=10;
         $b=5;
+
+        if ($b != 0) {
+            $portion = $a / $b;
+            } else {
+                $portion = "nelze dělit nulou"
+            
+            }
 ?>
 <head>
     <meta charset="UTF-8">
